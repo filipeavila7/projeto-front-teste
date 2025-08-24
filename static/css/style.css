@@ -669,6 +669,12 @@ form{
 
 /* Quando a tela for pequena, aparece */
 @media(max-width:830px){
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; /* evita a barra de rolagem horizontal */
+    }
+    
     .nav-links {
     flex-direction: column;
     background:transparent;
