@@ -11,6 +11,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* evita a barra de rolagem horizontal */
+  width: 100%;
 }
 
 @keyframes fadeUp {
@@ -679,7 +680,6 @@ form{
       margin: 0;
       padding: 0;
       overflow-x: hidden; /* evita a barra de rolagem horizontal */
-      overflow: hidden;
     }
     
     .nav-links {
